@@ -1,0 +1,5 @@
+Calibration Adjustment Task
+- Detect trend
+ - want to remove trend for especially sloping sensor data (in general, trend SHOULD be flat to represent resting level)
+- Detect seasonality (eating times always cause spikes, etc.)
+ - basically want to filter this out to get the baseline, resting glucose level, which we want to line up sensor to sensor
